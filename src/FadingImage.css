@@ -1,0 +1,20 @@
+.fading-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fading-image.bottom {
+    z-index: 0;
+    opacity: 0;
+}
+
+.fading-image.top {
+    z-index: 1;
+    opacity: 1;
+}
+
